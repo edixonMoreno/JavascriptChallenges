@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+* {
+	padding: 5px;
+	margin: 5px;
+}
+
+header {
+   justify-content: center;
+   background-color: rgb(14, 155, 9);
+   margin: 10px;
+   padding: 20px;
+   border-radius: 3px;
+   text-decoration-color: black;
+   text-align: center;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+.reto, h3, .resultado{
+	margin: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    justify-content: left;
+}
+
+.form {
+	position: relative;
+	width: 250px;
+	overflow: hidden;
+    z-index: 10;
+}
+
+.bloque {
+    text-align: center;
+}
+
+.redacción {
+	width: 90%; 
+	border: 0;
+	border-radius: 3px;
+	font-size: 1.2em;
+	background: rgb(182, 184, 182);
+	outline: 0;
+	box-sizing: border-box;
+	padding: 10px 40px 10px 10px;
+    color: #fff;
+    margin: 10px;  
+}
+
+.redacción::placeholder {
+    color: ivory;
+}
+
+.evaluar {
+    width: 15%;
+	border: 0;
+	border-radius: 3px;
+	font-size: 1.2em;
+	background: rgb(182, 184, 182);
+	outline: 0;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+	color: black;
+	text-align: center;
+}
+
+.resultado {
+	margin: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+}
