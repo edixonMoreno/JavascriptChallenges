@@ -16,8 +16,7 @@ function analizar() {
         longestWord = (srt) => {
         const strArray = str.split(' ');
         const sortedStrArray = strArray.sort((strA, strB) => {
-        return strB.length - strA.length;
-        event.preventdefault(); 
+        return strB.length - strA.length;        
         }
     );
         return sortedStrArray[0]; 
