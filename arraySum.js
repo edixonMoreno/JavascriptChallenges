@@ -12,3 +12,4 @@ function arraySum(arr) {
 console.log(arraySum([1, 2, 4, 6, 13]));
 console.log(arraySum([1, 2, 4, 54, 22]));
 
+
